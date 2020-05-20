@@ -1,6 +1,7 @@
 #!/bin/bash
 # Program to output a system information page
 
+
 title="System Information Report"
 
 echo "<html>
