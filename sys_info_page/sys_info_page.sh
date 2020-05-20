@@ -5,7 +5,8 @@ TITLE="System Information Report For $HOSTNAME"
 CURRENT_TIME="$(date +"%x %r %Z")"
 TIMESTAMP="Generated $CURRENT_TIME, by $USER"
 
-echo "<html>
+cat << _EOF_
+<html>
         <head>
                 <title>$TITLE</title>
         </head>
@@ -14,3 +15,4 @@ echo "<html>
                 <p>$TIMESTAMP</p>
         </body>
 </html>"
+_EOF_
