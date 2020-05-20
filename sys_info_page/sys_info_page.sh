@@ -1,10 +1,10 @@
 # Program to output a system information page
 
-echo "<html>"
-echo "   <head>"
-echo "        <title>Page Title</title>"
-echo "   </head>"
-echo "   <body>"
-echo "        Page body."
-echo "   </body>"
-echo "</html>"
+echo "<html>
+    <head>
+         <title>Page Title</title>
+    </head>
+    <body>
+         Page body.
+    </body>
+</html>"
